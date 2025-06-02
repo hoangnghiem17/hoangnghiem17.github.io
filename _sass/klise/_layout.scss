@@ -181,7 +181,7 @@
 
 // Author
 .author {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-bottom: 3rem;
   text-align: center;
   max-width: 1000px;
@@ -194,8 +194,8 @@
   }
 
   .author-avatar {
-    width: 125px;
-    height: 125px;
+    width: 175px;
+    height: 175px;
     border-radius: 100%;
     user-select: none;
     background-color: $black;
@@ -204,7 +204,7 @@
     -webkit-animation: 0.5s ease-in forwards fadein;
     animation: 0.5s ease-in forwards fadein;
     opacity: 1;
-    margin-top: 0.5rem;
+    margin-top: 0.25rem;
   }
 
   .author-contacts.large-contacts a {
