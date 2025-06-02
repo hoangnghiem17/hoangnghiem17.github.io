@@ -9,7 +9,7 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Việt **Hoàng**, Nghiêm # author name
+  name: "Việt <b>Hoàng</b>, Nghiêm" # author name
   bio: >- 
     Born in Vietnam, moved to Germany at 8 years old and now working as an AI consultant in a small enterprise. I am curious by nature but always with a practical mindset - I like to turn ideas into action and take responsibility to make things happen.
     <br><br>
