@@ -184,14 +184,18 @@
   margin-top: 6.3rem;
   margin-bottom: 7.2rem;
   text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include media-query($on-mobile) {
     margin-bottom: 3em;
+    max-width: 95vw;
   }
 
   .author-avatar {
-    width: 120px;
-    height: px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     user-select: none;
     background-color: $black;
@@ -200,6 +204,27 @@
     -webkit-animation: 0.5s ease-in forwards fadein;
     animation: 0.5s ease-in forwards fadein;
     opacity: 1;
+  }
+
+  .author-contacts.large-contacts a {
+    font-size: 2.2rem;
+    margin: 0 0.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 0.2s;
+  }
+  .author-contacts.large-contacts a:hover {
+    transform: scale(1.2);
+  }
+
+  .author-bio ul, .author-bio ol {
+    text-align: left;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .author-bio li {
+    text-align: left;
   }
 
   .author-name {
