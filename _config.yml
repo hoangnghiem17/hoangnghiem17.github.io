@@ -13,16 +13,21 @@ author:
   bio: >- 
     Born in Vietnam, moved to Germany at 8 years old and now working as an AI consultant in a small enterprise. I am curious by nature but always with a practical mindset hence I like to turn ideas into action and take responsibility to make things happen.
     <br><br>
-    Currently, I am exploring and building in many directions:
-    <ul>
-      <li>🏃‍♂️ Preparing for my first marathon</li>
-      <li>⚽ Playing football and practicing calisthenics</li>
-      <li>👨‍🏫 Teaching vietnamese to children</li>
-      <li>📹 Learning video filming and editing</li>
-      <li>🍳 Experimenting in the kitchen</li>
-      <li>🧠 Reading about philosophy, psychology and neuroscience</li>
-      <li>👨‍💻 Developing practical AI solutions as a side project</li>
-    </ul>
+    Currently, I am actively exploring and building in these directions:
+    <table>
+      <tr>
+        <td>🏃‍♂️ Preparing for my first marathon, playing football and doing calisthenics</td>
+        <td>👨‍💻 Developing practical AI solutions as a side project</td>
+      </tr>
+      <tr>
+        <td>👨‍🏫 Teaching vietnamese to children</td>
+        <td>🧠 Reading about philosophy, psychology and neuroscience</td>
+      </tr>
+      <tr>
+        <td>🍳 Experimenting in the kitchen</td>
+        <td>📹 Learning video filming and editing</td>
+      </tr>
+    </table>
   username: honicus # general username
   github: hoangnghiem17 # github username
   email: nghhoang17@email.com # email adress
