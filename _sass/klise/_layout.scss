@@ -240,6 +240,18 @@
   }
 }
 
+.author-contacts .contact-icon {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: 0 0.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform 0.2s;
+}
+.author-contacts .contact-icon:hover {
+  transform: scale(1.2);
+}
+
 // Content
 .posts-item-note {
   font-size: $base-font-size;
