@@ -181,7 +181,7 @@
 
 // Author
 .author {
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
   margin-bottom: 3rem;
   text-align: center;
   max-width: 1000px;
@@ -238,6 +238,10 @@
     opacity: 0.9;
     width: 100%;
     line-height: 1.688;
+  }
+
+  .author-contacts {
+    margin-bottom: 0.2rem;
   }
 }
 
