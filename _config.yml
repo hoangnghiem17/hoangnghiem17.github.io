@@ -9,12 +9,22 @@ mode: dark # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Viet Hoang Nghiem # author name
-  bio: Information Systems dude that became to technical. Using this website to express myself online.
-  username: username # general username
-  github: github_username # github username
-  twitter: twitter_username # twitter username
-  facebook: facebook_username # facebook username
+  name: Việt **Hoàng**, Nghiêm # author name
+  bio: >- 
+    Born in Vietnam, moved to Germany at 8 years old and now working as an AI consultant in a small enterprise. I am curious by nature but always with a practical mindset - I like to turn ideas into action and take responsibility to make things happen.
+    <br><br>
+    Currently, I am actively exploring and building in many directions:
+    <ul>
+      <li>🏃‍♂️ Preparing for my first marathon</li>
+      <li>⚽ Playing football and practicing calisthenics</li>
+      <li>👨‍🏫 Teaching vietnamese to children</li>
+      <li>📹 Learning video filming and editing</li>
+      <li>🍳 Experimenting in the kitchen</li>
+      <li>🧠 Reading about philosophy, psychology and neuroscience</li>
+      <li>👨‍💻 Developing practical AI solutions as a side project</li>
+    </ul>
+  username: honicus # general username
+  github: hoangnghiem17 # github username
   email: nghhoang17@email.com # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
