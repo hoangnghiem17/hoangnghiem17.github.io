@@ -19,3 +19,8 @@
 - title: CV
   url: /cv/
   external: false
+
+# Add Projects page to navigation
+- title: Projects
+  url: /projects/
+  external: false
