@@ -6,6 +6,7 @@ excerpt: This page showcases my key projects developed in my free time and unive
 ---
 
 <section class="projects">
+  <!--
   <h2>Table of Contents</h2>
   <ul>
     <li><a href="#coding-projects">Key Coding & Side Projects</a></li>
@@ -14,8 +15,7 @@ excerpt: This page showcases my key projects developed in my free time and unive
     <li><a href="#exchange-america">Exchange in America</a></li>
     <li><a href="#other-projects">Other Projects</a></li>
   </ul>
-
-  <h2 id="projects">💻 Projects</h2>
+  -->
   <div class="project-item">
     <h3>🎓 Master Thesis: Development of chatbots for waste disposal</h3>
     <div class="project-links">
@@ -34,7 +34,7 @@ excerpt: This page showcases my key projects developed in my free time and unive
   </div>
 
   <div class="project-item">
-    <h3>🎓 University Project: Analysis of Frankfurt's municipal waste using ML</h3>
+    <h3>🏆 Data Mining Cup 2023: Analysis of Frankfurt's municipal waste using ML</h3>
           <div class="project-links">
         <a href="https://www.youtube.com/watch?v=aATaEJoIEWI" target="_blank" class="project-link">🎥 Highlight Video</a>
         <a href="https://docs.google.com/presentation/d/1tDEmhATAkPBS7Q6yZREYZTyxPrLycnK9/edit?usp=drive_link&ouid=117066328026008436947&rtpof=true&sd=true" target="_blank" class="project-link">📊 Presentation</a>
@@ -48,10 +48,23 @@ excerpt: This page showcases my key projects developed in my free time and unive
       <li><strong>Skills:</strong> Presentation | Communication | Teamwork</li>
       <li><strong>Domain:</strong> Sustainability | Waste Management | Public Service</li>
     </ul>
-    <p><strong>Key Learnings:</strong> TELL ABOUT KEY RESULTS.</p>
+    <p><strong>Key Learnings:</strong> The classification and usage of explainable AI (Surrogate Linear Model and Decision Tree) revealed that the stronger the retail affinity, the more likely it is a household with high residual waste. The environmental department of Frankfurt proposed an action plan in 2022 to reduce the amount of municipal waste. We used a sample of weighted waste data of 4 years to assess the effectiveness of the action plan and forecast the future development. The result showed that there is still a big gap between reality and plan which highlights the needs for more urgency and actions.</p>
   </div>
 
-
+  <div class="project-item">
+    <h3>📊 Personal Project: Fine-tuning BERT for Spam Detection</h3>
+    <div class="project-links">
+      <a href="https://github.com/hoangnghiem17/BERTSpamDetection" target="_blank" class="project-link">📁 GitHub</a>
+    </div>
+    <p><strong>Description:</strong> I fine-tuned a pre-trained BERT model to classify Emails as spam or ham (not spam). The project includes data preprocessing, tokenization with Hugging Face Transformers, model fine-tuning using PyTorch and evaluation based on accuracy and F1 score. To see the performance difference between the pre-trained BERT model and the fine-tuned model, I also evaluated each model version on the test set including the test data, ChatGPT generated Emails and real spam Emails of myself.</p>
+    <p><strong>Skills:</strong></p>
+    <ul>
+      <li><strong>Concepts:</strong> Transfer Learning | NLP | Text Classification | Model Evaluation</li>
+      <li><strong>Development:</strong> Python | PyTorch | Hugging Face Transformers | scikit-learn</li>
+    </ul>
+    <p><strong>Key Learnings:</strong> Fine-tuning a pre-trained model like BERT can improve performance on a specific task. It is essential understand the use case to determine if a fine-tuning approach is reasonable given the required resources. If so, it is critical to select and preprocess qualitative data that will be used for fine-tuning the model. The fine-tuning process must be analyzed with metrics such as training and validation loss to avoid overfitting. At the end, an evaluation must be designed to ensure the fine-tuned model performs well on unknown data.</p>
+  </div>
+  
 <style>
 .projects {
   max-width: 800px;
