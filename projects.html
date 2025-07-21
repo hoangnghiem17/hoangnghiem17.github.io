@@ -2,69 +2,67 @@
 layout: page
 title: Projects
 permalink: /projects/
-excerpt: This page showcases my key projects developed in my free time and university.
+excerpt: This page showcases technical projects I worked on during my free time and university.
 ---
 
 <section class="projects">
+
   <h2>Table of Contents</h2>
   <ul>
-    <li><a href="#coding-projects">Key Coding & Side Projects</a></li>
     <li><a href="#master-thesis">Master Thesis</a></li>
     <li><a href="#data-mining-cup">Data Mining Cup</a></li>
-    <li><a href="#exchange-america">Exchange in America</a></li>
-    <li><a href="#other-projects">Other Projects</a></li>
+    <li><a href="#bert-finetuning">LLM Finetuning</a></li>
   </ul>
 
-  <h2 id="coding-projects">💻 Key Coding & Side Projects</h2>
-  <div class="project-item">
-    <h3>[Master Thesis] Development of a waste disposal chatbot with 3 different chatbot development environments</h3>
+  <div class="project-item" id="master-thesis">
+    <h3>🎓 Master Thesis: Development of chatbots for waste disposal</h3>
     <div class="project-links">
       <a href="https://drive.google.com/file/d/1ylVgv8N6SQ6132dMA7rWG6uSU2ulNdHp/view?usp=drive_link" target="_blank" class="project-link">📄 Master Thesis</a>
       <a href="https://github.com/hoangnghiem17/WasteSeparationChatbotLLM.git" target="_blank" class="project-link">📁 GitHub</a>
     </div>
-    <p><strong>Description:</strong> In my master thesis, I developed a waste disposal chatbot with 3 different chatbot development environments. I used Google Dialogflow, Rasa AI and a custom LLM-based implementation (GPT-4o-mini via LangChain and LangGraph) to create a chatbot that can assist citizens in sustainable waste disposal. I evaluated the development environments to determine in which use cases they are best suited.</p>
-    <p><strong>Skills:</strong> Programming (Python | JavaScript | HTML | CSS), Domain (Circular Economy | Waste Management | Public Services), Soft Skills (Presentation | Teamwork | Communication)</p>
+    <p><strong>Description:</strong> In my master thesis, I developed a chatbot with 3 different chatbot environments that can assist citizens in sustainable waste disposal. I used Google Dialogflow, Rasa AI and a custom LLM-based implementation (GPT-4o-mini via LangChain and LangGraph). I evaluated the development environments to determine in which use cases they are best suited.</p>
+    <p><strong>Skills:</strong></p>
+    <ul>
+      <li><strong>Concepts:</strong> Agent | LLM | RAG | NLU | NLP | Software Design
+      <li><strong>Development:</strong> Python | JavaScript | HTML | CSS  </li></li>
+      <li><strong>Skills:</strong> Research | Presentation | Self Management</li>
+      <li><strong>Domain:</strong> Sustainability | Waste Management | Public Service</li>
+    </ul>
     <p><strong>Key Learnings:</strong> There is a use case for every tool. The choice of the development environment for a waste disposal chatbot depends on the required chatbot features and capabilities of the implementing organization. LLM-based chatbots enable powerful features but requires expertise and effort to implement and maintain.</p>
   </div>
 
-  <div class="project-item">
-    <h3>[University Project] Use of ML to analyze Frankfurt's current state of municipal waste</h3>
+  <div class="project-item" id="data-mining-cup">
+    <h3>🏆 Data Mining Cup 2023: Analysis of Frankfurt's municipal waste using ML</h3>
           <div class="project-links">
         <a href="https://www.youtube.com/watch?v=aATaEJoIEWI" target="_blank" class="project-link">🎥 Highlight Video</a>
         <a href="https://docs.google.com/presentation/d/1tDEmhATAkPBS7Q6yZREYZTyxPrLycnK9/edit?usp=drive_link&ouid=117066328026008436947&rtpof=true&sd=true" target="_blank" class="project-link">📊 Presentation</a>
         <a href="https://drive.google.com/file/d/16qFDwegP5r1TjIkHqprKn0joAgacZZC-/view?usp=drive_link" target="_blank" class="project-link">📋 Application</a>
     </div>
-    <p><strong>Description:</strong> In the context of a university project, I used ML (classification and forecasting) to analyze Frankfurt's current state of municipal waste. The project was also used to participate in the Data Mining Cup 2023, where we won the first place and presented our results in a workshop in Berlin.</p>
-    <p><strong>Skills:</strong> Python, KNIME, </p>
-    <p><strong>Key Learnings:</strong> What you learned from building this project.</p>
+    <p><strong>Description:</strong> In the context of a university project, I used ML to analyze Frankfurt's current state of municipal waste. It included the classification of households regarding residual waste generation based on retail affinity and the forecasting of municipal waste generation. Additionally, targeted campaigns were designed based on the most important attributes of households that generate a high amount of residual waste using Explainable AI. The project was used to participate in the Data Mining Cup 2023, where we won the first place and presented our results in a workshop in Berlin.</p>
+    <p><strong>Skills:</strong></p>
+    <ul>
+      <li><strong>Concepts:</strong> Classification | Forecasting | Explainable AI | Data Analytics | Data Visualization</li>
+      <li><strong>Development:</strong> Python | KNIME  </li></li>
+      <li><strong>Skills:</strong> Presentation | Communication | Teamwork</li>
+      <li><strong>Domain:</strong> Sustainability | Waste Management | Public Service</li>
+    </ul>
+    <p><strong>Key Learnings:</strong> The classification and usage of explainable AI (Surrogate Linear Model and Decision Tree) revealed that the stronger the retail affinity, the more likely it is a household with high residual waste. The environmental department of Frankfurt proposed an action plan in 2022 to reduce the amount of municipal waste. We used a sample of weighted waste data of 4 years to assess the effectiveness of the action plan and forecast the future development. The result showed that there is still a big gap between reality and plan which highlights the needs for more urgency and actions.</p>
   </div>
 
-  <h2 id="master-thesis">🎓 Master Thesis</h2>
-  <div class="project-item">
-    <h3>[University Project] Finetuning BERT-based LLM for spam detection</h3>
+  <div class="project-item" id="bert-finetuning">
+    <h3>📊 Personal Project: Fine-tuning BERT for Spam Detection</h3>
     <div class="project-links">
-      <a href="#" target="_blank" class="project-link">📄 Thesis PDF</a>
-      <a href="#" target="_blank" class="project-link">📁 GitHub</a>
+      <a href="https://github.com/hoangnghiem17/BERTSpamDetection" target="_blank" class="project-link">📁 GitHub</a>
     </div>
-    <p><strong>Description:</strong> Developed and compared chatbots using Google Dialogflow, Rasa and a custom LLM-based implementation (GPT-4o-mini via LangChain and LangGraph) to assist Frankfurt citizens in sustainable waste disposal.</p>
-    <p><strong>Skills:</strong> Google Dialogflow, Rasa, LangChain, LangGraph, GPT-4o-mini, FAISS, Python</p>
-    <p><strong>Key Learnings:</strong> Evaluation of chatbot platforms, NLU, dialogue management, deployment strategies, multimodality, RAG implementation, tool orchestration</p>
-    <p><strong>Accomplishments:</strong> Comprehensive comparison of chatbot platforms, successful implementation of LLM-based agent with advanced features</p>
+    <p><strong>Description:</strong> I fine-tuned a pre-trained BERT model to classify Emails as spam or ham (not spam). The project includes data preprocessing, tokenization with Hugging Face Transformers, model fine-tuning using PyTorch and evaluation based on accuracy and F1 score. To see the performance difference between the pre-trained BERT model and the fine-tuned model, I also evaluated each model version on the test set including the test data, ChatGPT generated Emails and real spam Emails of myself.</p>
+    <p><strong>Skills:</strong></p>
+    <ul>
+      <li><strong>Concepts:</strong> Transfer Learning | NLP | Text Classification | Model Evaluation</li>
+      <li><strong>Development:</strong> Python | PyTorch | Hugging Face Transformers | scikit-learn</li>
+    </ul>
+    <p><strong>Key Learnings:</strong> Fine-tuning a pre-trained model like BERT can improve performance on a specific task. It is essential understand the use case to determine if a fine-tuning approach is reasonable given the required resources. If so, it is critical to select and preprocess qualitative data that will be used for fine-tuning the model. The fine-tuning process must be analyzed with metrics such as training and validation loss to avoid overfitting. At the end, an evaluation must be designed to ensure the fine-tuned model performs well on unknown data.</p>
   </div>
-
-  <h2 id="data-mining-cup">🏆 Data Mining Cup</h2>
-  <div class="project-item">
-    <h3>[University Project] Seminar on Corporate Entrepreneurship in Boston, USA at Regis College</h3>
-    <div class="project-links">
-      <a href="https://idw-online.de/de/news818176" target="_blank" class="project-link">📰 News Article</a>
-      <a href="https://www.data-mining-cup.com/" target="_blank" class="project-link">🏆 Competition</a>
-    </div>
-    <p><strong>Description:</strong> Analysis to support the city of Frankfurt to become a certified Zero Waste City. The results were presented to the board of the city of Frankfurt and in the Data Mining Cup where we won the first place.</p>
-    <p><strong>Technologies:</strong> Python, KNIME, Classification algorithms, Explainable AI, ARIMA, Prophet</p>
-    <p><strong>Key Learnings:</strong> Data mining for sustainability, classification techniques, time series forecasting, explainable AI, presenting to stakeholders</p>
-    <p><strong>Accomplishments:</strong> 🥇 1st Place in Data Mining Cup 2023 (69 participants from 17 countries), results presented to Frankfurt city board</p>
-  </div>
-
+  
 <style>
 .projects {
   max-width: 800px;

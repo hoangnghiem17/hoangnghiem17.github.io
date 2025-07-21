@@ -1,0 +1,124 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+excerpt: All my blog posts and articles about technology, programming, and personal experiences.
+---
+
+<section class="blog">
+  <h2>📝 Blog Posts</h2>
+  
+  {%- for post in site.posts -%}
+  <article class="blog-post">
+    <div class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
+        {{ post.date | date: "%B %d, %Y" }}
+      </time>
+      {%- if post.categories -%}
+        <span class="post-categories">
+          {%- for category in post.categories -%}
+            <span class="category">{{ category }}</span>
+          {%- endfor -%}
+        </span>
+      {%- endif -%}
+    </div>
+    
+    <h3 class="post-title">
+      <a href="{{ post.url }}">{{ post.title | escape }}</a>
+    </h3>
+    
+    {%- if post.excerpt -%}
+      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+    {%- endif -%}
+    
+    <a href="{{ post.url }}" class="read-more">Read more →</a>
+  </article>
+  {%- endfor -%}
+</section>
+
+<style>
+.blog {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog h2 {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.blog-post {
+  background: var(--entry);
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  border: 1px solid var(--border);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-post:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.post-meta {
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  color: var(--secondary);
+}
+
+.post-date {
+  font-weight: 500;
+}
+
+.post-categories {
+  margin-left: 15px;
+}
+
+.category {
+  background: var(--accent);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  margin-right: 5px;
+}
+
+.post-title {
+  margin: 0 0 15px 0;
+  font-size: 1.5em;
+}
+
+.post-title a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.post-title a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+.post-excerpt {
+  color: var(--secondary);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.read-more:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+</style> 
