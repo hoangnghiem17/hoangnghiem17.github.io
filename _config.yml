@@ -11,7 +11,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: "Việt Hoàng, Nghiêm" # author name
   bio: >- 
-    Born in Vietnam, moved to Germany at 8 years old and now working as an AI consultant in a small enterprise. I am curious by nature but always with a practical mindset hence I like to turn ideas into action and take responsibility to make things happen.
+    Born in Vietnam, moved to Germany at 8 years old and now working as an AI consultant at a small enterprise. I am curious by nature but always with a practical mindset hence I like to turn ideas into action and take responsibility to make things happen.
     <br><br>
     Currently, I am actively exploring and building in these directions:
     <table>
@@ -69,7 +69,7 @@ jekyll_compose:
     description:
 
 # Homepage limit posts
-number_of_posts: 5
+number_of_posts: 3
 
 # Build settings
 # theme: klise
