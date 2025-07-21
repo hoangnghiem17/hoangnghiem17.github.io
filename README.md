@@ -8,7 +8,6 @@ For demo <a href="https://klise.now.sh" target="_blank" rel="noopener">klise.now
 - [x] Light & Dark Mode support :waxing_crescent_moon:
 - [x] Customizable (using `.scss`)
 - [x] Responsive (desktop, tab and mobile)
-- [x] Mobile First Design
 - [x] SEO Optimized
 - [x] Images of post Organized ([`jekyll-postfiles`](https://github.com/nhoizey/jekyll-postfiles))
 - [x] Generate Sitemap ([`jekyll-sitemap`](https://github.com/jekyll/jekyll-sitemap))
